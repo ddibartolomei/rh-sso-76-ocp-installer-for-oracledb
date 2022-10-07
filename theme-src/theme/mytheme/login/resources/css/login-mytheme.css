@@ -1,0 +1,36 @@
+.login-pf body {
+  background: none;
+  background-color: #FFFFFF;
+  background-size: auto;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+    .login-pf body {
+      background: white;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    #kc-header-wrapper {
+      padding-bottom: 91px;
+      background-size: 350px;
+    }
+}
+
+@media (min-width: 767px) {
+  .login-pf {
+    background-attachment: fixed;
+  }
+}
+
+#kc-header-wrapper {
+  background-image: url(../img/logo-mytheme.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+/*
+.card-pf {
+  border-color: #004d99;
+}
+*/
