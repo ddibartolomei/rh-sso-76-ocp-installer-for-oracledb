@@ -36,5 +36,4 @@ TODO
 keystores*/
 tmp/
 *.jar
-config.env*
 rhsso76-oracle-image/ojdbc*.jar
